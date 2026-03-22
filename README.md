@@ -126,4 +126,4 @@ Pull requests are welcome! If you find a bug or have a feature request, feel fre
 
 ---
 
-<p align="center">Made with ❤️ by <a href="https://github.com/DerMaschinist">DerMaschinist</a></p>
+<p align="center">Made with ❤️ by <a href="https://github.com/Zworls">Zworls</a></p>
