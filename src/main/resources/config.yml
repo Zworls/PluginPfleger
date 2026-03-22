@@ -1,0 +1,18 @@
+# PluginPfleger Konfiguration
+
+# Automatisch beim Serverstart nach Updates suchen
+scan-beim-start: true
+
+# Alle X Stunden automatisch scannen (0 = deaktiviert)
+scan-intervall-stunden: 6
+
+# Download-Modus:
+#   manuell       - JARs in plugins/updates/ speichern, manuell austauschen
+#   auto-ersetzen - Direkt ersetzen (Backup wird immer erstellt)
+download-modus: manuell
+
+# Restart-Erinnerung nach /update all (Minuten, 0 = deaktiviert)
+neustart-erinnerung-minuten: 30
+
+# Plugins die beim Scan übersprungen werden
+ignorierte-plugins: []

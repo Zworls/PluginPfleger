@@ -1,0 +1,28 @@
+name: PluginPfleger
+version: '1.0.0'
+main: de.dermaschinist.pluginpfleger.PluginPfleger
+api-version: '1.21'
+description: Prüft und aktualisiert Plugins via Modrinth und Hangar
+author: DerMaschinist
+softdepend:
+  - LuckPerms
+
+commands:
+  update:
+    description: PluginPfleger Hauptbefehl
+    aliases: [pp]
+    usage: |
+      /update check               - Alle Plugins prüfen
+      /update all                 - Updates herunterladen
+      /update all -f              - Updates inkl. Major-Sprünge herunterladen
+      /update status              - Letzten Scan anzeigen
+      /update ignore <plugin>     - Plugin ignorieren
+      /update unignore <plugin>   - Plugin wieder prüfen
+      /update ignored             - Ignore-Liste anzeigen
+      /update <pluginname>        - Einzelnes Plugin prüfen
+    permission: pluginpfleger.use
+
+permissions:
+  pluginpfleger.use:
+    description: Erlaubt die Nutzung von /update und /pp
+    default: op
